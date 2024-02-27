@@ -1,0 +1,9 @@
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/uninstall.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/robot_5a_urdf_uninstall.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/test.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/edit_cache.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/rebuild_cache.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/list_install_components.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/install.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/install/local.dir
+/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf/CMakeFiles/install/strip.dir

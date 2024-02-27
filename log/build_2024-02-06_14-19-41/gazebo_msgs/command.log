@@ -1,0 +1,2 @@
+Invoking command in '/home/bernardo/R5A_ROS_ws/build/gazebo_msgs': /usr/bin/cmake /home/bernardo/R5A_ROS_ws/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bernardo/R5A_ROS_ws/install/gazebo_msgs
+Invoked command in '/home/bernardo/R5A_ROS_ws/build/gazebo_msgs' returned '1': /usr/bin/cmake /home/bernardo/R5A_ROS_ws/src/gazebo_ros_pkgs/gazebo_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/bernardo/R5A_ROS_ws/install/gazebo_msgs
