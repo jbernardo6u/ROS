@@ -12,20 +12,38 @@
     <!-- Instead, we need to add gazebo tags for our links that refer to Gazebo materials -->
 
 
-<!--    <gazebo reference="base_link">
+    <gazebo reference="base_link">
         <material>Gazebo/Green</material>
     </gazebo>
 
-    <gazebo reference="slider_link">
+    <gazebo reference="Link_1">
         <material>Gazebo/Blue</material>
     </gazebo>
 
-    <gazebo reference="arm_link">
+    <gazebo reference="Link_2">
         <material>Gazebo/Orange</material>
     </gazebo>
--->
 
+    <gazebo reference="Link_3">
+        <material>Gazebo/Green</material>
+    </gazebo>
 
+    <gazebo reference="Link_4">
+        <material>Gazebo/BLue</material>
+    </gazebo>
+
+    <gazebo reference="Link_5">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <!-- Fictions
+    <gazebo reference="front_caster">
+        <mu1>0.01</mu1>
+        <mu2>0.01</mu2>
+        <material>Gazebo/White</material>
+        <gravity>true</gravity>
+    </gazebo>
+    -->
 
     <!-- Gazebo requires the use of plugins to interact with other systems such as ROS. -->
 
@@ -34,11 +52,13 @@
             (which robot_state_publisher can then use to broadcast the approprate tf). -->
 
     <gazebo>
-        <plugin name="gazebo_ros_joint_state_publisher"
-            filename="libgazebo_ros_joint_state_publisher.so">
+        <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
             <update_rate>20</update_rate>
-            <joint_name>slider_joint</joint_name>
-            <joint_name>arm_joint</joint_name>
+            <joint_name>Joint_1</joint_name>
+            <joint_name>Joint_2</joint_name>
+            <joint_name>Joint_3</joint_name>
+            <joint_name>Joint_4</joint_name>
+            <joint_name>Joint_5</joint_name>
         </plugin>
     </gazebo>
 
@@ -71,7 +91,8 @@
     
     
     <!-- First, create the link and joint for the optical frame -->
-        
+    
+    <!--    
     <joint name="camera_optical_joint" type="fixed">
         <origin xyz="0 0 0" rpy="-1.571 0 -1.571" />
         <parent link="camera_link" />
@@ -79,7 +100,7 @@
     </joint>
 
     <link name="camera_link_optical"></link>
-
+-->
 
 
     <!-- Add a gazebo tag for the ORIGINAL camera_link (but in the plugin we reference the optical frame so that ROS can orient things correctly) -->
@@ -88,8 +109,8 @@
     <!-- Note that although visualise is set to true, it won't actually visualise the depth camera in gazebo. To see the preview, 
             try swapping "depth" to "camera"-->
 
-            <!---->
-            <gazebo reference="camera_link">
+            <!--
+    <gazebo reference="camera_link">
         <sensor type="depth" name="my_camera">
             <update_rate>20</update_rate>
             <visualize>true</visualize>
@@ -117,8 +138,6 @@
             </plugin>
         </sensor>
     </gazebo>
-
-
-
+    -->
 
 </robot>

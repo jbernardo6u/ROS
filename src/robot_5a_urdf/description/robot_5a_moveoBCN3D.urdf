@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot_5a_urdf">
 
-    <!--<xacro:include filename="example_include.xacro" />-->
+    <xacro:include filename="physics_include.xacro" />
+    <xacro:include filename="simulation_gazebo.xacro" />
 
     <link name="world"></link>
 
@@ -14,18 +15,15 @@
     <link name="base_link">
       <inertial>
         <origin xyz="-0.0548860380843249 0.13093941386242 0.123490600745143" rpy="0 0 0"/>
-        <mass value="14.597154271183"/>
-        <inertia ixx="0.695957973379333" ixy="-0.0649025967272173" ixz="-0.0112244947190923"
-                iyy="0.473270434583888" iyz="-0.0216810141749484" izz="0.714879715191763"/>
+        <mass value="8.0643" />
+      <inertia ixx="0.11291" ixy="0.00066071" ixz="-0.00030472" iyy="0.089946" iyz="0.011461" izz="0.19187"/>
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/base_link.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
-        </material>
+        <material name="green" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -38,17 +36,16 @@
     <link name="Link_1">
       <inertial>
         <origin xyz="-0.021301 0.065037 0.0075714" rpy="0 0 0"/>
-        <mass value="14.597"/>
-        <inertia ixx="0.69565" ixy="-0.058894" ixz="0.010958" iyy="0.47327" iyz="0.034841" izz="0.71519"/>
+        <mass value="4.2526" />
+        <inertia ixx="0.0034071" ixy="8.9041E-06" ixz="1.179E-07"
+                   iyy="0.018642" iyz="-3.6544E-06" izz="0.021987" />
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_1.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.79216 0.81961 0.93333 1"/>
-        </material>
+        <material name="blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -63,24 +60,23 @@
       <parent link="base_link"/>
       <child link="Link_1"/>
       <axis xyz="0 1 0"/>
-      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+      <limit lower="-1.5707" upper="1.5707" effort="100" velocity="100"/>
+      <dynamics damping="2.0" friction="2.0"/>
     </joint>
 
     <link name="Link_2">
       <inertial>
         <origin xyz="0.0103079949986939 -0.10122359821804 0.0158561314021889" rpy="0 0 0"/>
-        <mass value="14.597154271183"/>
-        <inertia ixx="0.715780080314829" ixy="0.021388200911921" ixz="0.00320169652070024"
-                iyy="0.457122372881164" iyz="0.0219238847969466" izz="0.711205669958993"/>
+        <mass value="1.9323" />
+        <inertia ixx="0.012138" ixy="-3.5576E-06" ixz="-9.0632E-06"
+                   iyy="0.011445" iyz="0.00014273" izz="0.00070271" />
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_2.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
-        </material>
+        <material name="orange" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -95,24 +91,23 @@
       <parent link="Link_1"/>
       <child link="Link_2"/>
       <axis xyz="1 0 0"/>
-      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+      <limit lower="-1.5707" upper="1.5707" effort="100" velocity="100"/>
+      <dynamics damping="2.0" friction="2.0"/>
     </joint>
 
     <link name="Link_3">
       <inertial>
         <origin xyz="0.20022943071033 -0.0103079949986938 0.253115452864687" rpy="0 0 0"/>
-        <mass value="14.597154271183"/>
-        <inertia ixx="0.604661953325442" ixy="0.00982373505240051" ixz="-0.127279503360431"
-                iyy="0.715780080314829" iyz="0.0192665572555039" izz="0.563666089514714"/>
+        <mass value="1.1381" />
+        <inertia ixx="0.00023572" ixy="-3.8425E-06" ixz="4.1286E-06"
+                   iyy="0.00029123" iyz="-1.0387E-07" izz="0.00052457" />
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_3.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
-        </material>
+        <material name="white" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -127,24 +122,23 @@
       <parent link="Link_2"/>
       <child link="Link_3"/>
       <axis xyz="0 1 0"/>
-      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+      <limit lower="-1.5707" upper="1.5707" effort="100" velocity="100"/>
+      <dynamics damping="2.0" friction="2.0"/>
     </joint>
 
     <link name="Link_4">
       <inertial>
         <origin xyz="0.229768913416455 -0.369352839223879 0.106888566945361" rpy="0 0 0"/>
-        <mass value="14.597154271183"/>
-        <inertia ixx="0.59877838195797" ixy="0.114168459956055" ixz="-0.0669283055033016"
-                iyy="0.604661953325442" iyz="0.057115151206315" izz="0.680667787871573"/>
+        <mass value="0.62964" />
+        <inertia ixx="0.0001717" ixy="1.3446E-06" ixz="8.5164E-06"
+                   iyy="0.00010506" iyz="5.1412E-05" izz="7.8944E-05" />
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_4.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
-        </material>
+        <material name="blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -159,24 +153,23 @@
       <parent link="Link_3"/>
       <child link="Link_4"/>
       <axis xyz="0 1 0"/>
-      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+      <limit lower="-1.5707" upper="1.5707" effort="100" velocity="100"/>
+      <dynamics damping="2.0" friction="2.0"/>
     </joint>
 
     <link name="Link_5">
       <inertial>
         <origin xyz="0.3705564409974 0.106888566945361 0.30222256926485" rpy="0 0 0"/>
-        <mass value="14.597154271183"/>
-        <inertia ixx="0.520070664432361" ixy="-0.0834897515196175" ixz="-0.0798526767078822"
-                iyy="0.680667787871572" iyz="-0.027766886142599" izz="0.683369670851052"/>
+        <mass value="0.19875" />
+        <inertia ixx="6.2676E-05" ixy="4.2551E-06" ixz="4.0215E-05"
+                   iyy="9.7792E-05" iyz="8.5888E-07" izz="9.5807E-05" />
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_5.STL"/>
         </geometry>
-        <material name="">
-          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
-        </material>
+        <material name="orange" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -191,9 +184,12 @@
       <parent link="Link_4"/>
       <child link="Link_5"/>
       <axis xyz="0 1 0"/>
-      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+      <limit lower="-1.5707" upper="1.5707" effort="100" velocity="100"/>
+      <dynamics damping="2.0" friction="2.0"/>
     </joint>
 
-    <!--<xacro:include filename="example_gazebo.xacro" />-->
+    <xacro:include filename="example_gazebo.xacro" />
 
 </robot>
+
+<!-- test -->

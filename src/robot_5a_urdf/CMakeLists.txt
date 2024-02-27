@@ -32,7 +32,7 @@ endif()
 
 
 install(
-  DIRECTORY description launch config meshes
+  DIRECTORY description launch config meshes rviz models parameters
   DESTINATION share/${PROJECT_NAME}
 )
 
