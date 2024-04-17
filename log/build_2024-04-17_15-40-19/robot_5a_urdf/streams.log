@@ -1,0 +1,39 @@
+[0.491s] Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf -- -j3 -l3
+[2.809s] Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf -- -j3 -l3
+[3.146s] Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf
+[3.175s] -- Install configuration: ""
+[3.180s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description
+[3.197s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_include.xacro
+[3.197s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.csv
+[3.202s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_gazebo.xacro
+[3.204s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.urdf.xacro
+[3.205s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch
+[3.213s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/rsp_sim.launch.py
+[3.214s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/gazebo_robot.launch.py
+[3.215s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config
+[3.217s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/joint_names_5A Assembly3.yaml
+[3.220s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/robot_5a_controllers.yaml
+[3.221s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes
+[3.233s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_2.STL
+[3.246s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_3.STL
+[3.250s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/base_link.STL
+[3.250s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_1.STL
+[3.250s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_4.STL
+[3.254s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_5.STL
+[3.265s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/rviz
+[3.272s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/package_run_dependencies/robot_5a_urdf
+[3.278s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/parent_prefix_path/robot_5a_urdf
+[3.283s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/ament_prefix_path.sh
+[3.286s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/ament_prefix_path.dsv
+[3.286s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/path.sh
+[3.287s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/path.dsv
+[3.288s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.bash
+[3.288s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.sh
+[3.292s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.zsh
+[3.293s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.dsv
+[3.301s] -- Installing: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.dsv
+[3.307s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/packages/robot_5a_urdf
+[3.315s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/cmake/robot_5a_urdfConfig.cmake
+[3.317s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/cmake/robot_5a_urdfConfig-version.cmake
+[3.332s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.xml
+[3.365s] Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf

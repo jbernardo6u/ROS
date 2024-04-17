@@ -1,0 +1,1459 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo_ros[m[K’ does not name a type
+   78 |   [01;31m[Kgazebo_ros[m[K::Node::SharedPtr model_nh_;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_ros2_control::GazeboRosControlPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:147:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  147 |   impl_->[01;31m[Kmodel_nh_[m[K = gazebo_ros::Node::Get(sdf);
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:147:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo_ros[m[K’ has not been declared
+  147 |   impl_->model_nh_ = [01;31m[Kgazebo_ros[m[K::Node::Get(sdf);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:150:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  150 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in namespace: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:150:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:149:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:149:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  149 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:149:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:149:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  149 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:149:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:150:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  150 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in namespace: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:150:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  150 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in namespace: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:151:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  151 |     impl_->[01;31m[Kmodel_nh_[m[K->get_namespace());
+      |            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:154:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  154 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in ros 2 node: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:154:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:153:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  153 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:153:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  153 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:153:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  153 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:154:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  154 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in ros 2 node: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:154:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  154 |     impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Starting gazebo_ros2_control plugin in ros 2 node: %s",
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:155:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  155 |     impl_->[01;31m[Kmodel_nh_[m[K->get_name());
+      |            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  159 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parent model is NULL");
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  159 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "parent model is NULL");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  159 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "parent model is NULL");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  159 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "parent model is NULL");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  159 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "parent model is NULL");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  159 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "parent model is NULL");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  159 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parent model is NULL");
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:159:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  159 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parent model is NULL");
+      |                                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:166:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  166 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:166:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  165 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:165:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  165 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:165:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:166:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  166 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:166:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  166 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  204 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "An empty URDF was passed. Exiting.");
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  204 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "An empty URDF was passed. Exiting.");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  204 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "An empty URDF was passed. Exiting.");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  204 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "An empty URDF was passed. Exiting.");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  204 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "An empty URDF was passed. Exiting.");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  204 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(impl_->model_nh_->get_logger(), "An empty URDF was passed. Exiting.");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  204 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "An empty URDF was passed. Exiting.");
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:204:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  204 |     RCLCPP_ERROR_STREAM(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "An empty URDF was passed. Exiting.");
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:210:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  210 |   auto rcl_context = impl_->[01;31m[Kmodel_nh_[m[K->get_node_base_interface()->get_context()->get_rcl_context();
+      |                             [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  217 |       RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading parameter files %s", argument.c_str());
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  217 |       [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading parameter files %s", argument.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  217 |       [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading parameter files %s", argument.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  217 |       [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading parameter files %s", argument.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  217 |       [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading parameter files %s", argument.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  217 |       [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading parameter files %s", argument.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  217 |       RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading parameter files %s", argument.c_str());
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:217:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  217 |       RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading parameter files %s", argument.c_str());
+      |                          [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:224:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  224 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "No parameter file provided. Configuration might be wrong");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:224:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:223:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  223 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:223:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  223 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:223:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  223 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:223:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  223 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:223:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  223 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:224:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  224 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "No parameter file provided. Configuration might be wrong");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:224:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  224 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "No parameter file provided. Configuration might be wrong");
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  272 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  272 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  272 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  272 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  272 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:272:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  272 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "parser error %s\n", rcl_get_error_string().str);
+      |                         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:278:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  278 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "failed to parse input yaml file(s)");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:278:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:277:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  277 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:277:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  277 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:277:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  277 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:277:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  277 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:277:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  277 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:278:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  278 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "failed to parse input yaml file(s)");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:278:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  278 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "failed to parse input yaml file(s)");
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:295:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  295 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:295:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:294:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  294 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:294:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  294 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:294:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:295:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  295 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:295:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  295 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  308 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Error initializing URDF to resource manager!");
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  308 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "Error initializing URDF to resource manager!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  308 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "Error initializing URDF to resource manager!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  308 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "Error initializing URDF to resource manager!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  308 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "Error initializing URDF to resource manager!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  308 |     [01;31m[KRCLCPP_ERROR[m[K(impl_->model_nh_->get_logger(), "Error initializing URDF to resource manager!");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  308 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Error initializing URDF to resource manager!");
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:308:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  308 |     RCLCPP_ERROR(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Error initializing URDF to resource manager!");
+      |                         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:317:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  317 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Failed to create robot simulation interface loader: %s ",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:317:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:316:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  316 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:316:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  316 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:316:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  316 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:316:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  316 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:316:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  316 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:317:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  317 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Failed to create robot simulation interface loader: %s ",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:317:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  317 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Failed to create robot simulation interface loader: %s ",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:322:67:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<hardware_interface::HardwareInfo>, hardware_interface::HardwareInfo>::value_type[m[K’ {aka ‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’} has no member named ‘[01m[Khardware_plugin_name[m[K’
+  322 | d::string robot_hw_sim_type_str_ = control_hardware_info[i].[01;31m[Khardware_plugin_name[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  324 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Load hardware interface %s ...",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:323:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  323 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:323:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  323 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:323:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  323 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:323:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  323 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:323:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  323 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  324 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Load hardware interface %s ...",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:324:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  324 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Load hardware interface %s ...",
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:332:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  332 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "The plugin failed to load for some reason. Error: %s\n",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:332:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:331:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  331 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:331:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  331 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:331:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  331 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:331:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  331 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:331:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  331 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:332:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  332 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "The plugin failed to load for some reason. Error: %s\n",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:332:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  332 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "The plugin failed to load for some reason. Error: %s\n",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:337:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  337 |       impl_->[01;31m[Kmodel_nh_[m[K);
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:339:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  339 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded hardware interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:339:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:338:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:338:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  338 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:338:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:338:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  338 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:338:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:339:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  339 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded hardware interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:339:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  339 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded hardware interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:345:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  345 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has already been declared, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:345:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:344:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:344:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  344 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:344:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:344:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  344 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:344:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  344 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:345:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  345 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has already been declared, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:345:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  345 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has already been declared, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:349:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  349 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has invalid name, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:349:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:348:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  348 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:348:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  348 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:348:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  348 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:348:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  348 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:348:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  348 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:349:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  349 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has invalid name, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:349:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  349 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' has invalid name, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:352:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  352 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value is invalid, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:352:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:351:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  351 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:351:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  351 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:351:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  351 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:351:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  351 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:351:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  351 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:352:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  352 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value is invalid, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:352:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  352 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value is invalid, %s", e.what());
+      |                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:355:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  355 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value has wrong type, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:355:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:354:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  354 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:354:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  354 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:354:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  354 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:354:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  354 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:354:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  354 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:355:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  355 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value has wrong type, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:355:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  355 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Parameter 'hold_joints' value has wrong type, %s",
+      |                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:365:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  365 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Could not initialize robot simulation interface");
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:365:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:364:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:364:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  364 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:364:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:364:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  364 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:364:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  364 |       [01;31m[KRCLCPP_FATAL[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:365:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  365 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Could not initialize robot simulation interface");
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:365:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  365 |         impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Could not initialize robot simulation interface");
+      |                [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:369:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  369 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Initialized robot simulation interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:369:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:368:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  368 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:368:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  368 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:368:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  368 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:368:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  368 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:368:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  368 |     [01;31m[KRCLCPP_DEBUG[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:369:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  369 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Initialized robot simulation interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:369:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  369 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Initialized robot simulation interface %s!",
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  384 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading controller_manager");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  384 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading controller_manager");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  384 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading controller_manager");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  384 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading controller_manager");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  384 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading controller_manager");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  384 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loading controller_manager");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  384 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading controller_manager");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:384:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  384 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loading controller_manager");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:390:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  390 |       impl_->[01;31m[Kmodel_nh_[m[K->get_namespace()));
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:395:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  395 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "controller manager doesn't have an update_rate parameter");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:395:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:394:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  394 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:394:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  394 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:394:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  394 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:394:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  394 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:394:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  394 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:395:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  395 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "controller manager doesn't have an update_rate parameter");
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:395:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  395 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "controller manager doesn't have an update_rate parameter");
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:406:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  406 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:406:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:405:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  405 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:405:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  405 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:405:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  405 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:405:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  405 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:405:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  405 |     [01;31m[KRCLCPP_ERROR_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:406:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  406 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:406:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  406 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:412:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  412 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:412:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:411:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  411 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:411:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  411 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:411:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  411 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:411:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  411 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:411:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  411 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:412:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  412 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:412:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  412 |       impl_->[01;31m[Kmodel_nh_[m[K->get_logger(),
+      |              [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  437 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded gazebo_ros2_control.");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  437 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loaded gazebo_ros2_control.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  437 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loaded gazebo_ros2_control.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  437 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loaded gazebo_ros2_control.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  437 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loaded gazebo_ros2_control.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  437 |   [01;31m[KRCLCPP_INFO[m[K(impl_->model_nh_->get_logger(), "Loaded gazebo_ros2_control.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  437 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded gazebo_ros2_control.");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:437:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo_ros2_control::GazeboRosControlPrivate[m[K’ has no member named ‘[01m[Kmodel_nh_[m[K’
+  437 |   RCLCPP_INFO(impl_->[01;31m[Kmodel_nh_[m[K->get_logger(), "Loaded gazebo_ros2_control.");
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kstd::string gazebo_ros2_control::GazeboRosControlPrivate::getURDF(std::string) const[m[K’:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:474:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_nh_[m[K’ was not declared in this scope
+  474 |     [01;31m[Kmodel_nh_[m[K, robot_description_node_);
+      |     [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:29[m[K,
+                 from [01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:42[m[K:
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:477:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  477 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:477:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  477 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:477:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  477 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:477:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  477 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:477:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  477 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:482:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  482 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:482:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  482 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:482:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  482 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:482:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  482 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:482:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  482 |     [01;31m[KRCLCPP_ERROR[m[K(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:487:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  487 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:487:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  487 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:487:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  487 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:487:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  487 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:487:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  487 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:492:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |     [01;31m[KRCLCPP_DEBUG[m[K(model_nh_->get_logger(), "param_name %s", param_name.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:492:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  492 |     [01;31m[KRCLCPP_DEBUG[m[K(model_nh_->get_logger(), "param_name %s", param_name.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:492:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |     [01;31m[KRCLCPP_DEBUG[m[K(model_nh_->get_logger(), "param_name %s", param_name.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:492:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  492 |     [01;31m[KRCLCPP_DEBUG[m[K(model_nh_->get_logger(), "param_name %s", param_name.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:492:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  492 |     [01;31m[KRCLCPP_DEBUG[m[K(model_nh_->get_logger(), "param_name %s", param_name.c_str());
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:500:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  500 |       [01;31m[KRCLCPP_ERROR[m[K(model_nh_->get_logger(), "%s", e.what());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:500:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  500 |       [01;31m[KRCLCPP_ERROR[m[K(model_nh_->get_logger(), "%s", e.what());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:500:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  500 |       [01;31m[KRCLCPP_ERROR[m[K(model_nh_->get_logger(), "%s", e.what());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:500:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  500 |       [01;31m[KRCLCPP_ERROR[m[K(model_nh_->get_logger(), "%s", e.what());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:500:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  500 |       [01;31m[KRCLCPP_ERROR[m[K(model_nh_->get_logger(), "%s", e.what());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:506:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  506 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:506:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  506 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:506:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  506 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:506:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  506 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:506:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  506 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:512:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  512 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:512:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  512 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:512:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  512 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:512:3:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  512 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:512:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  512 |   [01;31m[KRCLCPP_INFO[m[K(
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+gmake[2]: *** [CMakeFiles/gazebo_ros2_control.dir/build.make:76: CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gazebo_ros2_control.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] Built target gazebo_hardware_plugins
+gmake: *** [Makefile:146: all] Error 2

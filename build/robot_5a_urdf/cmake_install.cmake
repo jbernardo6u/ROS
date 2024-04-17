@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/launch"
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/config"
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/meshes"
+    "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/rviz"
     )
 endif()
 

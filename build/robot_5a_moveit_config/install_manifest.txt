@@ -1,0 +1,15 @@
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/package_run_dependencies/robot_5a_moveit_config
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/parent_prefix_path/robot_5a_moveit_config
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.sh
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.dsv
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.sh
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.dsv
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.bash
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.sh
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.zsh
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.dsv
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.dsv
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/packages/robot_5a_moveit_config
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig.cmake
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig-version.cmake
+/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.xml

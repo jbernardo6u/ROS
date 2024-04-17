@@ -1,0 +1,808 @@
+[0.000000] (-) TimerEvent: {}
+[0.070567] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.070779] (robot_5a_moveit_config) JobQueued: {'identifier': 'robot_5a_moveit_config', 'dependencies': OrderedDict()}
+[0.071215] (robot_5a_urdf) JobQueued: {'identifier': 'robot_5a_urdf', 'dependencies': OrderedDict()}
+[0.071297] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.107635] (-) TimerEvent: {}
+[0.117431] (robot_5a_moveit_config) JobStarted: {'identifier': 'robot_5a_moveit_config'}
+[0.247057] (-) TimerEvent: {}
+[0.357148] (-) TimerEvent: {}
+[0.404611] (robot_5a_urdf) JobStarted: {'identifier': 'robot_5a_urdf'}
+[0.428312] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.446553] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.447619] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control', '--', '-j3', '-l3'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.587955] (-) TimerEvent: {}
+[0.674991] (robot_5a_moveit_config) JobProgress: {'identifier': 'robot_5a_moveit_config', 'progress': 'cmake'}
+[0.688280] (-) TimerEvent: {}
+[0.709444] (robot_5a_moveit_config) JobProgress: {'identifier': 'robot_5a_moveit_config', 'progress': 'build'}
+[0.709821] (robot_5a_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config', '--', '-j3', '-l3'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.793072] (-) TimerEvent: {}
+[0.880680] (robot_5a_urdf) JobProgress: {'identifier': 'robot_5a_urdf', 'progress': 'cmake'}
+[0.891224] (robot_5a_urdf) JobProgress: {'identifier': 'robot_5a_urdf', 'progress': 'build'}
+[0.894200] (robot_5a_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf', '--', '-j3', '-l3'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.895728] (-) TimerEvent: {}
+[1.003005] (-) TimerEvent: {}
+[1.135950] (-) TimerEvent: {}
+[1.246027] (-) TimerEvent: {}
+[1.349586] (-) TimerEvent: {}
+[1.479646] (-) TimerEvent: {}
+[1.603709] (-) TimerEvent: {}
+[1.704470] (-) TimerEvent: {}
+[1.806880] (-) TimerEvent: {}
+[1.954348] (-) TimerEvent: {}
+[2.055814] (-) TimerEvent: {}
+[2.157358] (-) TimerEvent: {}
+[2.263265] (-) TimerEvent: {}
+[2.368913] (-) TimerEvent: {}
+[2.472565] (-) TimerEvent: {}
+[2.592237] (-) TimerEvent: {}
+[2.712597] (-) TimerEvent: {}
+[2.816225] (-) TimerEvent: {}
+[2.924661] (-) TimerEvent: {}
+[3.036648] (-) TimerEvent: {}
+[3.128193] (robot_5a_moveit_config) CommandEnded: {'returncode': 0}
+[3.137840] (-) TimerEvent: {}
+[3.213008] (robot_5a_urdf) CommandEnded: {'returncode': 0}
+[3.252071] (-) TimerEvent: {}
+[3.331060] (robot_5a_moveit_config) JobProgress: {'identifier': 'robot_5a_moveit_config', 'progress': 'install'}
+[3.352820] (-) TimerEvent: {}
+[3.361089] (robot_5a_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[3.395135] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.395561] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/package_run_dependencies/robot_5a_moveit_config\n'}
+[3.395720] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/parent_prefix_path/robot_5a_moveit_config\n'}
+[3.396178] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.sh\n'}
+[3.397988] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.dsv\n'}
+[3.399190] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.sh\n'}
+[3.399552] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.dsv\n'}
+[3.399717] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.bash\n'}
+[3.401647] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.sh\n'}
+[3.402612] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.zsh\n'}
+[3.403760] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.dsv\n'}
+[3.404384] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.dsv\n'}
+[3.414182] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/packages/robot_5a_moveit_config\n'}
+[3.414736] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig.cmake\n'}
+[3.414836] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig-version.cmake\n'}
+[3.422504] (robot_5a_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.xml\n'}
+[3.442574] (robot_5a_moveit_config) CommandEnded: {'returncode': 0}
+[3.453513] (-) TimerEvent: {}
+[3.549955] (robot_5a_urdf) JobProgress: {'identifier': 'robot_5a_urdf', 'progress': 'install'}
+[3.550644] (robot_5a_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[3.555930] (-) TimerEvent: {}
+[3.579031] (robot_5a_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.582066] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description\n'}
+[3.601229] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_include.xacro\n'}
+[3.601578] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.csv\n'}
+[3.606643] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_gazebo.xacro\n'}
+[3.608995] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.urdf.xacro\n'}
+[3.609353] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch\n'}
+[3.617022] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/rsp_sim.launch.py\n'}
+[3.618152] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/gazebo_robot.launch.py\n'}
+[3.619666] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config\n'}
+[3.622074] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/joint_names_5A Assembly3.yaml\n'}
+[3.624396] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/robot_5a_controllers.yaml\n'}
+[3.625604] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes\n'}
+[3.637203] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_2.STL\n'}
+[3.645392] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_3.STL\n'}
+[3.654183] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/base_link.STL\n'}
+[3.654696] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_1.STL\n'}
+[3.654972] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_4.STL\n'}
+[3.658335] (-) TimerEvent: {}
+[3.658651] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_5.STL\n'}
+[3.669845] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/rviz\n'}
+[3.676685] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/package_run_dependencies/robot_5a_urdf\n'}
+[3.682547] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/parent_prefix_path/robot_5a_urdf\n'}
+[3.687945] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/ament_prefix_path.sh\n'}
+[3.690258] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/ament_prefix_path.dsv\n'}
+[3.690721] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/path.sh\n'}
+[3.691311] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/environment/path.dsv\n'}
+[3.692372] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.bash\n'}
+[3.692667] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.sh\n'}
+[3.696577] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.zsh\n'}
+[3.697207] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/local_setup.dsv\n'}
+[3.705434] (robot_5a_urdf) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.dsv\n'}
+[3.711440] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/ament_index/resource_index/packages/robot_5a_urdf\n'}
+[3.719824] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/cmake/robot_5a_urdfConfig.cmake\n'}
+[3.720647] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/cmake/robot_5a_urdfConfig-version.cmake\n'}
+[3.736681] (robot_5a_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.xml\n'}
+[3.760582] (-) TimerEvent: {}
+[3.769614] (robot_5a_urdf) CommandEnded: {'returncode': 0}
+[3.833698] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[3.866377] (-) TimerEvent: {}
+[3.874178] (robot_5a_moveit_config) JobEnded: {'identifier': 'robot_5a_moveit_config', 'rc': 0}
+[3.997869] (-) TimerEvent: {}
+[4.107606] (-) TimerEvent: {}
+[4.190225] (robot_5a_urdf) JobEnded: {'identifier': 'robot_5a_urdf', 'rc': 0}
+[4.208509] (-) TimerEvent: {}
+[4.267884] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[4.317069] (-) TimerEvent: {}
+[4.428698] (-) TimerEvent: {}
+[4.530076] (-) TimerEvent: {}
+[4.631858] (-) TimerEvent: {}
+[4.742919] (-) TimerEvent: {}
+[4.843765] (-) TimerEvent: {}
+[4.950367] (-) TimerEvent: {}
+[5.054194] (-) TimerEvent: {}
+[5.157682] (-) TimerEvent: {}
+[5.262582] (-) TimerEvent: {}
+[5.363108] (-) TimerEvent: {}
+[5.464125] (-) TimerEvent: {}
+[5.567847] (-) TimerEvent: {}
+[5.670444] (-) TimerEvent: {}
+[5.778886] (-) TimerEvent: {}
+[5.882033] (-) TimerEvent: {}
+[5.983593] (-) TimerEvent: {}
+[6.084510] (-) TimerEvent: {}
+[6.210388] (-) TimerEvent: {}
+[6.310986] (-) TimerEvent: {}
+[6.411511] (-) TimerEvent: {}
+[6.512431] (-) TimerEvent: {}
+[6.613392] (-) TimerEvent: {}
+[6.713976] (-) TimerEvent: {}
+[6.815236] (-) TimerEvent: {}
+[6.916378] (-) TimerEvent: {}
+[7.017342] (-) TimerEvent: {}
+[7.117969] (-) TimerEvent: {}
+[7.219179] (-) TimerEvent: {}
+[7.320964] (-) TimerEvent: {}
+[7.424973] (-) TimerEvent: {}
+[7.527574] (-) TimerEvent: {}
+[7.628909] (-) TimerEvent: {}
+[7.731054] (-) TimerEvent: {}
+[7.838708] (-) TimerEvent: {}
+[7.942169] (-) TimerEvent: {}
+[8.043220] (-) TimerEvent: {}
+[8.152609] (-) TimerEvent: {}
+[8.262192] (-) TimerEvent: {}
+[8.363099] (-) TimerEvent: {}
+[8.468285] (-) TimerEvent: {}
+[8.614753] (-) TimerEvent: {}
+[8.715644] (-) TimerEvent: {}
+[8.819668] (-) TimerEvent: {}
+[8.941319] (-) TimerEvent: {}
+[9.044931] (-) TimerEvent: {}
+[9.145350] (-) TimerEvent: {}
+[9.245954] (-) TimerEvent: {}
+[9.346613] (-) TimerEvent: {}
+[9.486825] (-) TimerEvent: {}
+[9.599227] (-) TimerEvent: {}
+[9.740643] (-) TimerEvent: {}
+[9.943593] (-) TimerEvent: {}
+[10.067328] (-) TimerEvent: {}
+[10.182561] (-) TimerEvent: {}
+[10.286080] (-) TimerEvent: {}
+[10.485879] (-) TimerEvent: {}
+[10.586951] (-) TimerEvent: {}
+[10.702442] (-) TimerEvent: {}
+[10.803571] (-) TimerEvent: {}
+[10.904470] (-) TimerEvent: {}
+[11.014024] (-) TimerEvent: {}
+[11.116955] (-) TimerEvent: {}
+[11.240694] (-) TimerEvent: {}
+[11.341437] (-) TimerEvent: {}
+[11.442264] (-) TimerEvent: {}
+[11.543595] (-) TimerEvent: {}
+[11.666586] (-) TimerEvent: {}
+[11.766978] (-) TimerEvent: {}
+[11.888457] (-) TimerEvent: {}
+[11.990248] (-) TimerEvent: {}
+[12.106604] (-) TimerEvent: {}
+[12.208435] (-) TimerEvent: {}
+[12.315310] (-) TimerEvent: {}
+[12.416125] (-) TimerEvent: {}
+[12.517301] (-) TimerEvent: {}
+[12.618197] (-) TimerEvent: {}
+[12.718958] (-) TimerEvent: {}
+[12.819658] (-) TimerEvent: {}
+[12.922970] (-) TimerEvent: {}
+[13.032259] (-) TimerEvent: {}
+[13.133079] (-) TimerEvent: {}
+[13.235010] (-) TimerEvent: {}
+[13.347058] (-) TimerEvent: {}
+[13.453393] (-) TimerEvent: {}
+[13.555151] (-) TimerEvent: {}
+[13.657431] (-) TimerEvent: {}
+[13.765296] (-) TimerEvent: {}
+[13.866009] (-) TimerEvent: {}
+[13.975221] (-) TimerEvent: {}
+[14.075939] (-) TimerEvent: {}
+[14.177223] (-) TimerEvent: {}
+[14.284639] (-) TimerEvent: {}
+[14.386357] (-) TimerEvent: {}
+[14.488279] (-) TimerEvent: {}
+[14.588979] (-) TimerEvent: {}
+[14.689596] (-) TimerEvent: {}
+[14.790104] (-) TimerEvent: {}
+[14.890864] (-) TimerEvent: {}
+[14.991817] (-) TimerEvent: {}
+[15.094341] (-) TimerEvent: {}
+[15.197129] (-) TimerEvent: {}
+[15.298774] (-) TimerEvent: {}
+[15.403886] (-) TimerEvent: {}
+[15.504678] (-) TimerEvent: {}
+[15.608622] (-) TimerEvent: {}
+[15.709192] (-) TimerEvent: {}
+[15.809981] (-) TimerEvent: {}
+[15.910771] (-) TimerEvent: {}
+[16.011618] (-) TimerEvent: {}
+[16.112391] (-) TimerEvent: {}
+[16.213153] (-) TimerEvent: {}
+[16.314112] (-) TimerEvent: {}
+[16.414716] (-) TimerEvent: {}
+[16.515592] (-) TimerEvent: {}
+[16.616145] (-) TimerEvent: {}
+[16.716743] (-) TimerEvent: {}
+[16.901026] (-) TimerEvent: {}
+[17.001792] (-) TimerEvent: {}
+[17.144054] (-) TimerEvent: {}
+[17.282106] (-) TimerEvent: {}
+[17.391192] (-) TimerEvent: {}
+[17.494820] (-) TimerEvent: {}
+[17.597469] (-) TimerEvent: {}
+[17.706912] (-) TimerEvent: {}
+[17.811088] (-) TimerEvent: {}
+[17.915631] (-) TimerEvent: {}
+[18.016980] (-) TimerEvent: {}
+[18.118444] (-) TimerEvent: {}
+[18.219857] (-) TimerEvent: {}
+[18.321703] (-) TimerEvent: {}
+[18.423184] (-) TimerEvent: {}
+[18.543458] (-) TimerEvent: {}
+[18.645082] (-) TimerEvent: {}
+[18.792642] (-) TimerEvent: {}
+[19.543192] (-) TimerEvent: {}
+[19.644164] (-) TimerEvent: {}
+[19.745369] (-) TimerEvent: {}
+[20.549531] (-) TimerEvent: {}
+[20.738359] (-) TimerEvent: {}
+[20.920017] (-) TimerEvent: {}
+[21.027240] (-) TimerEvent: {}
+[21.211476] (-) TimerEvent: {}
+[21.377271] (-) TimerEvent: {}
+[21.541284] (-) TimerEvent: {}
+[21.642650] (-) TimerEvent: {}
+[21.748383] (-) TimerEvent: {}
+[21.851222] (-) TimerEvent: {}
+[21.970290] (-) TimerEvent: {}
+[22.128362] (-) TimerEvent: {}
+[22.248702] (-) TimerEvent: {}
+[22.545400] (-) TimerEvent: {}
+[22.648655] (-) TimerEvent: {}
+[22.750341] (-) TimerEvent: {}
+[22.971619] (-) TimerEvent: {}
+[23.073944] (-) TimerEvent: {}
+[23.179679] (-) TimerEvent: {}
+[23.282806] (-) TimerEvent: {}
+[23.386534] (-) TimerEvent: {}
+[23.487055] (-) TimerEvent: {}
+[23.592492] (-) TimerEvent: {}
+[23.703217] (-) TimerEvent: {}
+[23.803959] (-) TimerEvent: {}
+[23.904638] (-) TimerEvent: {}
+[24.005410] (-) TimerEvent: {}
+[24.107289] (-) TimerEvent: {}
+[24.211318] (-) TimerEvent: {}
+[24.317450] (-) TimerEvent: {}
+[24.420526] (-) TimerEvent: {}
+[24.523571] (-) TimerEvent: {}
+[24.690509] (-) TimerEvent: {}
+[24.799177] (-) TimerEvent: {}
+[24.901547] (-) TimerEvent: {}
+[25.011308] (-) TimerEvent: {}
+[25.112101] (-) TimerEvent: {}
+[25.212904] (-) TimerEvent: {}
+[25.315331] (-) TimerEvent: {}
+[25.485224] (-) TimerEvent: {}
+[25.588395] (-) TimerEvent: {}
+[25.690076] (-) TimerEvent: {}
+[25.790849] (-) TimerEvent: {}
+[25.896169] (-) TimerEvent: {}
+[25.999394] (-) TimerEvent: {}
+[26.100809] (-) TimerEvent: {}
+[26.202971] (-) TimerEvent: {}
+[26.305681] (-) TimerEvent: {}
+[26.406428] (-) TimerEvent: {}
+[26.511573] (-) TimerEvent: {}
+[26.709096] (-) TimerEvent: {}
+[26.814899] (-) TimerEvent: {}
+[26.916144] (-) TimerEvent: {}
+[27.016796] (-) TimerEvent: {}
+[27.117329] (-) TimerEvent: {}
+[27.222169] (-) TimerEvent: {}
+[27.322673] (-) TimerEvent: {}
+[27.441111] (-) TimerEvent: {}
+[27.546299] (-) TimerEvent: {}
+[27.649366] (-) TimerEvent: {}
+[27.749974] (-) TimerEvent: {}
+[27.850823] (-) TimerEvent: {}
+[27.951679] (-) TimerEvent: {}
+[28.055888] (-) TimerEvent: {}
+[28.156981] (-) TimerEvent: {}
+[28.263285] (-) TimerEvent: {}
+[28.365697] (-) TimerEvent: {}
+[28.486017] (-) TimerEvent: {}
+[28.593729] (-) TimerEvent: {}
+[28.716119] (-) TimerEvent: {}
+[28.817634] (-) TimerEvent: {}
+[28.919348] (-) TimerEvent: {}
+[29.022315] (-) TimerEvent: {}
+[29.128461] (-) TimerEvent: {}
+[29.246990] (-) TimerEvent: {}
+[29.348445] (-) TimerEvent: {}
+[29.461525] (-) TimerEvent: {}
+[29.561925] (-) TimerEvent: {}
+[29.663936] (-) TimerEvent: {}
+[29.764791] (-) TimerEvent: {}
+[29.954330] (-) TimerEvent: {}
+[30.054731] (-) TimerEvent: {}
+[30.384977] (-) TimerEvent: {}
+[30.485748] (-) TimerEvent: {}
+[30.598899] (-) TimerEvent: {}
+[30.701325] (-) TimerEvent: {}
+[30.804445] (-) TimerEvent: {}
+[30.905037] (-) TimerEvent: {}
+[31.006071] (-) TimerEvent: {}
+[31.106548] (-) TimerEvent: {}
+[31.207039] (-) TimerEvent: {}
+[31.308157] (-) TimerEvent: {}
+[31.410425] (-) TimerEvent: {}
+[31.515311] (-) TimerEvent: {}
+[31.616346] (-) TimerEvent: {}
+[31.722161] (-) TimerEvent: {}
+[31.822964] (-) TimerEvent: {}
+[31.947890] (-) TimerEvent: {}
+[32.054075] (-) TimerEvent: {}
+[32.157041] (-) TimerEvent: {}
+[32.258341] (-) TimerEvent: {}
+[32.359349] (-) TimerEvent: {}
+[32.468364] (-) TimerEvent: {}
+[32.572539] (-) TimerEvent: {}
+[32.677079] (-) TimerEvent: {}
+[32.777906] (-) TimerEvent: {}
+[32.878730] (-) TimerEvent: {}
+[32.980947] (-) TimerEvent: {}
+[33.082062] (-) TimerEvent: {}
+[33.183233] (-) TimerEvent: {}
+[33.284233] (-) TimerEvent: {}
+[33.384966] (-) TimerEvent: {}
+[33.485545] (-) TimerEvent: {}
+[33.588432] (-) TimerEvent: {}
+[33.690648] (-) TimerEvent: {}
+[33.791539] (-) TimerEvent: {}
+[33.899939] (-) TimerEvent: {}
+[34.007136] (-) TimerEvent: {}
+[34.109944] (-) TimerEvent: {}
+[34.267532] (-) TimerEvent: {}
+[34.635778] (-) TimerEvent: {}
+[34.810569] (-) TimerEvent: {}
+[34.965137] (-) TimerEvent: {}
+[35.143653] (-) TimerEvent: {}
+[35.278608] (-) TimerEvent: {}
+[35.551298] (-) TimerEvent: {}
+[35.839699] (-) TimerEvent: {}
+[35.950427] (-) TimerEvent: {}
+[36.054103] (-) TimerEvent: {}
+[36.158835] (-) TimerEvent: {}
+[36.262529] (-) TimerEvent: {}
+[36.363062] (-) TimerEvent: {}
+[36.464438] (-) TimerEvent: {}
+[36.567460] (-) TimerEvent: {}
+[36.668063] (-) TimerEvent: {}
+[36.769334] (-) TimerEvent: {}
+[36.870770] (-) TimerEvent: {}
+[36.974376] (-) TimerEvent: {}
+[37.076582] (-) TimerEvent: {}
+[37.177093] (-) TimerEvent: {}
+[37.278142] (-) TimerEvent: {}
+[37.379368] (-) TimerEvent: {}
+[37.480804] (-) TimerEvent: {}
+[37.583106] (-) TimerEvent: {}
+[37.684298] (-) TimerEvent: {}
+[37.785551] (-) TimerEvent: {}
+[37.886468] (-) TimerEvent: {}
+[37.987429] (-) TimerEvent: {}
+[38.089496] (-) TimerEvent: {}
+[38.190323] (-) TimerEvent: {}
+[38.291296] (-) TimerEvent: {}
+[38.394121] (-) TimerEvent: {}
+[38.495035] (-) TimerEvent: {}
+[38.595942] (-) TimerEvent: {}
+[38.696596] (-) TimerEvent: {}
+[38.797346] (-) TimerEvent: {}
+[38.898025] (-) TimerEvent: {}
+[39.000522] (-) TimerEvent: {}
+[39.101342] (-) TimerEvent: {}
+[39.202024] (-) TimerEvent: {}
+[39.302957] (-) TimerEvent: {}
+[39.403780] (-) TimerEvent: {}
+[39.504820] (-) TimerEvent: {}
+[39.605463] (-) TimerEvent: {}
+[39.705974] (-) TimerEvent: {}
+[39.808468] (-) TimerEvent: {}
+[39.910966] (-) TimerEvent: {}
+[40.011887] (-) TimerEvent: {}
+[40.113179] (-) TimerEvent: {}
+[40.214301] (-) TimerEvent: {}
+[40.316498] (-) TimerEvent: {}
+[40.418099] (-) TimerEvent: {}
+[40.519115] (-) TimerEvent: {}
+[40.623492] (-) TimerEvent: {}
+[40.724372] (-) TimerEvent: {}
+[40.830866] (-) TimerEvent: {}
+[40.933055] (-) TimerEvent: {}
+[41.042542] (-) TimerEvent: {}
+[41.146914] (-) TimerEvent: {}
+[41.252096] (-) TimerEvent: {}
+[41.352888] (-) TimerEvent: {}
+[41.453951] (-) TimerEvent: {}
+[41.566918] (-) TimerEvent: {}
+[41.667616] (-) TimerEvent: {}
+[41.768231] (-) TimerEvent: {}
+[41.869078] (-) TimerEvent: {}
+[41.970128] (-) TimerEvent: {}
+[42.073065] (-) TimerEvent: {}
+[42.174429] (-) TimerEvent: {}
+[42.275392] (-) TimerEvent: {}
+[42.376042] (-) TimerEvent: {}
+[42.477170] (-) TimerEvent: {}
+[42.617613] (-) TimerEvent: {}
+[42.718941] (-) TimerEvent: {}
+[42.820142] (-) TimerEvent: {}
+[42.924361] (-) TimerEvent: {}
+[43.030224] (-) TimerEvent: {}
+[43.148139] (-) TimerEvent: {}
+[43.252264] (-) TimerEvent: {}
+[43.404848] (-) TimerEvent: {}
+[43.536214] (-) TimerEvent: {}
+[43.637636] (-) TimerEvent: {}
+[43.739667] (-) TimerEvent: {}
+[43.850039] (-) TimerEvent: {}
+[43.960212] (-) TimerEvent: {}
+[44.067118] (-) TimerEvent: {}
+[44.174629] (-) TimerEvent: {}
+[44.275219] (-) TimerEvent: {}
+[44.376129] (-) TimerEvent: {}
+[44.491746] (-) TimerEvent: {}
+[44.597526] (-) TimerEvent: {}
+[44.698352] (-) TimerEvent: {}
+[44.799126] (-) TimerEvent: {}
+[44.900670] (-) TimerEvent: {}
+[45.001826] (-) TimerEvent: {}
+[45.102806] (-) TimerEvent: {}
+[45.204735] (-) TimerEvent: {}
+[45.306252] (-) TimerEvent: {}
+[45.408975] (-) TimerEvent: {}
+[45.515574] (-) TimerEvent: {}
+[45.617308] (-) TimerEvent: {}
+[45.717943] (-) TimerEvent: {}
+[45.819126] (-) TimerEvent: {}
+[45.920076] (-) TimerEvent: {}
+[46.021111] (-) TimerEvent: {}
+[46.122246] (-) TimerEvent: {}
+[46.223614] (-) TimerEvent: {}
+[46.325274] (-) TimerEvent: {}
+[46.425822] (-) TimerEvent: {}
+[46.527087] (-) TimerEvent: {}
+[46.628787] (-) TimerEvent: {}
+[46.732119] (-) TimerEvent: {}
+[46.834235] (-) TimerEvent: {}
+[46.938910] (-) TimerEvent: {}
+[47.040190] (-) TimerEvent: {}
+[47.143397] (-) TimerEvent: {}
+[47.247011] (-) TimerEvent: {}
+[47.347518] (-) TimerEvent: {}
+[47.457030] (-) TimerEvent: {}
+[47.557428] (-) TimerEvent: {}
+[47.658020] (-) TimerEvent: {}
+[47.759541] (-) TimerEvent: {}
+[47.870319] (-) TimerEvent: {}
+[47.972043] (-) TimerEvent: {}
+[48.075018] (-) TimerEvent: {}
+[48.265878] (-) TimerEvent: {}
+[48.409586] (-) TimerEvent: {}
+[48.516027] (-) TimerEvent: {}
+[48.654195] (-) TimerEvent: {}
+[48.755248] (-) TimerEvent: {}
+[48.861515] (-) TimerEvent: {}
+[48.962147] (-) TimerEvent: {}
+[49.063269] (-) TimerEvent: {}
+[49.165306] (-) TimerEvent: {}
+[49.268722] (-) TimerEvent: {}
+[49.381361] (-) TimerEvent: {}
+[49.483429] (-) TimerEvent: {}
+[49.970296] (-) TimerEvent: {}
+[50.071399] (-) TimerEvent: {}
+[50.182483] (-) TimerEvent: {}
+[50.285874] (-) TimerEvent: {}
+[50.389352] (-) TimerEvent: {}
+[50.491125] (-) TimerEvent: {}
+[50.591999] (-) TimerEvent: {}
+[50.693212] (-) TimerEvent: {}
+[50.794844] (-) TimerEvent: {}
+[50.898244] (-) TimerEvent: {}
+[50.999251] (-) TimerEvent: {}
+[51.101189] (-) TimerEvent: {}
+[51.216672] (-) TimerEvent: {}
+[51.318620] (-) TimerEvent: {}
+[51.419202] (-) TimerEvent: {}
+[51.520677] (-) TimerEvent: {}
+[51.621907] (-) TimerEvent: {}
+[51.732222] (-) TimerEvent: {}
+[51.836357] (-) TimerEvent: {}
+[51.936800] (-) TimerEvent: {}
+[52.037555] (-) TimerEvent: {}
+[52.138640] (-) TimerEvent: {}
+[52.240891] (-) TimerEvent: {}
+[52.404498] (-) TimerEvent: {}
+[52.521157] (-) TimerEvent: {}
+[52.624072] (-) TimerEvent: {}
+[52.725567] (-) TimerEvent: {}
+[52.830093] (-) TimerEvent: {}
+[52.936594] (-) TimerEvent: {}
+[53.037713] (-) TimerEvent: {}
+[53.138630] (-) TimerEvent: {}
+[53.239330] (-) TimerEvent: {}
+[53.340044] (-) TimerEvent: {}
+[53.440767] (-) TimerEvent: {}
+[53.541144] (-) TimerEvent: {}
+[53.641754] (-) TimerEvent: {}
+[53.742961] (-) TimerEvent: {}
+[53.851263] (-) TimerEvent: {}
+[53.973065] (-) TimerEvent: {}
+[54.111906] (-) TimerEvent: {}
+[54.212710] (-) TimerEvent: {}
+[54.316758] (-) TimerEvent: {}
+[54.424136] (-) TimerEvent: {}
+[54.526705] (-) TimerEvent: {}
+[54.704219] (-) TimerEvent: {}
+[54.869285] (-) TimerEvent: {}
+[55.012942] (-) TimerEvent: {}
+[55.124888] (-) TimerEvent: {}
+[55.229511] (-) TimerEvent: {}
+[55.330270] (-) TimerEvent: {}
+[55.431269] (-) TimerEvent: {}
+[55.532244] (-) TimerEvent: {}
+[55.698730] (-) TimerEvent: {}
+[55.802069] (-) TimerEvent: {}
+[55.904770] (-) TimerEvent: {}
+[56.020274] (-) TimerEvent: {}
+[56.141434] (-) TimerEvent: {}
+[56.250633] (-) TimerEvent: {}
+[56.351853] (-) TimerEvent: {}
+[56.452824] (-) TimerEvent: {}
+[56.555407] (-) TimerEvent: {}
+[56.656161] (-) TimerEvent: {}
+[56.757074] (-) TimerEvent: {}
+[56.859068] (-) TimerEvent: {}
+[56.960594] (-) TimerEvent: {}
+[57.062997] (-) TimerEvent: {}
+[57.164256] (-) TimerEvent: {}
+[57.265327] (-) TimerEvent: {}
+[57.366814] (-) TimerEvent: {}
+[57.467874] (-) TimerEvent: {}
+[57.571969] (-) TimerEvent: {}
+[57.672827] (-) TimerEvent: {}
+[57.773581] (-) TimerEvent: {}
+[57.874700] (-) TimerEvent: {}
+[57.975973] (-) TimerEvent: {}
+[58.077166] (-) TimerEvent: {}
+[58.178342] (-) TimerEvent: {}
+[58.283265] (-) TimerEvent: {}
+[58.393215] (-) TimerEvent: {}
+[58.498688] (-) TimerEvent: {}
+[58.601343] (-) TimerEvent: {}
+[58.702406] (-) TimerEvent: {}
+[58.815372] (-) TimerEvent: {}
+[58.935951] (-) TimerEvent: {}
+[59.041598] (-) TimerEvent: {}
+[59.146349] (-) TimerEvent: {}
+[59.254152] (-) TimerEvent: {}
+[59.354958] (-) TimerEvent: {}
+[59.457779] (-) TimerEvent: {}
+[59.560492] (-) TimerEvent: {}
+[59.665073] (-) TimerEvent: {}
+[59.767144] (-) TimerEvent: {}
+[59.869723] (-) TimerEvent: {}
+[59.972649] (-) TimerEvent: {}
+[60.074692] (-) TimerEvent: {}
+[60.205171] (-) TimerEvent: {}
+[60.306432] (-) TimerEvent: {}
+[60.406993] (-) TimerEvent: {}
+[60.509320] (-) TimerEvent: {}
+[60.610911] (-) TimerEvent: {}
+[60.712990] (-) TimerEvent: {}
+[60.827356] (-) TimerEvent: {}
+[60.928373] (-) TimerEvent: {}
+[61.029092] (-) TimerEvent: {}
+[61.130101] (-) TimerEvent: {}
+[61.230931] (-) TimerEvent: {}
+[61.331535] (-) TimerEvent: {}
+[61.432746] (-) TimerEvent: {}
+[61.533494] (-) TimerEvent: {}
+[61.634737] (-) TimerEvent: {}
+[61.735962] (-) TimerEvent: {}
+[61.836614] (-) TimerEvent: {}
+[61.938146] (-) TimerEvent: {}
+[62.043341] (-) TimerEvent: {}
+[62.143913] (-) TimerEvent: {}
+[62.244632] (-) TimerEvent: {}
+[62.345475] (-) TimerEvent: {}
+[62.446610] (-) TimerEvent: {}
+[62.548218] (-) TimerEvent: {}
+[62.666456] (-) TimerEvent: {}
+[62.780087] (-) TimerEvent: {}
+[62.881814] (-) TimerEvent: {}
+[62.982724] (-) TimerEvent: {}
+[63.084180] (-) TimerEvent: {}
+[63.191270] (-) TimerEvent: {}
+[63.292321] (-) TimerEvent: {}
+[63.402245] (-) TimerEvent: {}
+[63.547644] (-) TimerEvent: {}
+[63.658246] (-) TimerEvent: {}
+[63.781960] (-) TimerEvent: {}
+[63.886810] (-) TimerEvent: {}
+[64.003942] (-) TimerEvent: {}
+[64.216432] (-) TimerEvent: {}
+[64.319206] (-) TimerEvent: {}
+[64.420314] (-) TimerEvent: {}
+[64.524564] (-) TimerEvent: {}
+[64.625644] (-) TimerEvent: {}
+[64.742966] (-) TimerEvent: {}
+[64.847166] (-) TimerEvent: {}
+[64.959294] (-) TimerEvent: {}
+[65.073755] (-) TimerEvent: {}
+[65.224277] (-) TimerEvent: {}
+[65.329699] (-) TimerEvent: {}
+[65.438872] (-) TimerEvent: {}
+[65.603396] (-) TimerEvent: {}
+[65.720182] (-) TimerEvent: {}
+[65.821708] (-) TimerEvent: {}
+[65.932956] (-) TimerEvent: {}
+[66.073085] (-) TimerEvent: {}
+[66.528934] (-) TimerEvent: {}
+[66.631775] (-) TimerEvent: {}
+[66.733356] (-) TimerEvent: {}
+[66.843171] (-) TimerEvent: {}
+[66.945113] (-) TimerEvent: {}
+[67.049236] (-) TimerEvent: {}
+[67.150191] (-) TimerEvent: {}
+[67.254902] (-) TimerEvent: {}
+[67.366501] (-) TimerEvent: {}
+[67.469563] (-) TimerEvent: {}
+[67.570692] (-) TimerEvent: {}
+[67.672069] (-) TimerEvent: {}
+[67.772987] (-) TimerEvent: {}
+[67.873960] (-) TimerEvent: {}
+[67.974868] (-) TimerEvent: {}
+[68.079024] (-) TimerEvent: {}
+[68.179762] (-) TimerEvent: {}
+[68.280467] (-) TimerEvent: {}
+[68.381260] (-) TimerEvent: {}
+[68.481696] (-) TimerEvent: {}
+[68.585421] (-) TimerEvent: {}
+[68.688061] (-) TimerEvent: {}
+[68.788739] (-) TimerEvent: {}
+[68.889759] (-) TimerEvent: {}
+[68.990884] (-) TimerEvent: {}
+[69.091642] (-) TimerEvent: {}
+[69.192355] (-) TimerEvent: {}
+[69.293056] (-) TimerEvent: {}
+[69.394358] (-) TimerEvent: {}
+[69.495647] (-) TimerEvent: {}
+[69.596260] (-) TimerEvent: {}
+[69.703814] (-) TimerEvent: {}
+[69.711944] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[69.841480] (-) TimerEvent: {}
+[69.943001] (-) TimerEvent: {}
+[70.052345] (-) TimerEvent: {}
+[70.153724] (-) TimerEvent: {}
+[70.259950] (-) TimerEvent: {}
+[70.360698] (-) TimerEvent: {}
+[70.462222] (-) TimerEvent: {}
+[70.563073] (-) TimerEvent: {}
+[70.663794] (-) TimerEvent: {}
+[70.764410] (-) TimerEvent: {}
+[70.865100] (-) TimerEvent: {}
+[70.965945] (-) TimerEvent: {}
+[71.080882] (-) TimerEvent: {}
+[71.182154] (-) TimerEvent: {}
+[71.282959] (-) TimerEvent: {}
+[71.384716] (-) TimerEvent: {}
+[71.485205] (-) TimerEvent: {}
+[71.587034] (-) TimerEvent: {}
+[71.688056] (-) TimerEvent: {}
+[71.794598] (-) TimerEvent: {}
+[71.895469] (-) TimerEvent: {}
+[72.000726] (-) TimerEvent: {}
+[72.102641] (-) TimerEvent: {}
+[72.204789] (-) TimerEvent: {}
+[72.305645] (-) TimerEvent: {}
+[72.407254] (-) TimerEvent: {}
+[72.509164] (-) TimerEvent: {}
+[72.617347] (-) TimerEvent: {}
+[72.727309] (-) TimerEvent: {}
+[72.839553] (-) TimerEvent: {}
+[72.940491] (-) TimerEvent: {}
+[73.040956] (-) TimerEvent: {}
+[73.141879] (-) TimerEvent: {}
+[73.242612] (-) TimerEvent: {}
+[73.343431] (-) TimerEvent: {}
+[73.460784] (-) TimerEvent: {}
+[73.565045] (-) TimerEvent: {}
+[73.670311] (-) TimerEvent: {}
+[73.771178] (-) TimerEvent: {}
+[73.872037] (-) TimerEvent: {}
+[73.973611] (-) TimerEvent: {}
+[74.074845] (-) TimerEvent: {}
+[74.184780] (-) TimerEvent: {}
+[74.295238] (-) TimerEvent: {}
+[74.396203] (-) TimerEvent: {}
+[74.509567] (-) TimerEvent: {}
+[74.612165] (-) TimerEvent: {}
+[74.714360] (-) TimerEvent: {}
+[74.827744] (-) TimerEvent: {}
+[74.928657] (-) TimerEvent: {}
+[74.945597] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] Built target gazebo_ros2_control\n'}
+[75.032032] (-) TimerEvent: {}
+[75.132802] (-) TimerEvent: {}
+[75.233385] (-) TimerEvent: {}
+[75.333907] (-) TimerEvent: {}
+[75.434446] (-) TimerEvent: {}
+[75.535415] (-) TimerEvent: {}
+[75.636180] (-) TimerEvent: {}
+[75.729872] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_hardware_plugins\n'}
+[75.736968] (-) TimerEvent: {}
+[75.838852] (-) TimerEvent: {}
+[75.939746] (-) TimerEvent: {}
+[76.041070] (-) TimerEvent: {}
+[76.142017] (-) TimerEvent: {}
+[76.242640] (-) TimerEvent: {}
+[76.356041] (-) TimerEvent: {}
+[76.469006] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[76.679193] (-) TimerEvent: {}
+[76.800422] (-) TimerEvent: {}
+[76.901280] (-) TimerEvent: {}
+[77.029402] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[77.029584] (-) TimerEvent: {}
+[77.051370] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control'], 'cwd': '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bernardo'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bernardo'), ('OLDPWD', '/home/bernardo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2637'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/bernardo/ros_test_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bernardo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bernardo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/ros_test_ws/src/two_wheeled_robot/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bernardo-VirtualBox:@/tmp/.ICE-unix/2610,unix/bernardo-VirtualBox:/tmp/.ICE-unix/2610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11a27f38_5fb4_4211_85ac_afe541c9b9c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HSZSL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf:/home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config:/opt/ros/humble')]), 'shell': False}
+[77.083659] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[77.091482] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[77.099038] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[77.099209] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[77.119750] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[77.129710] (-) TimerEvent: {}
+[77.139853] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[77.141438] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[77.142454] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[77.143086] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[77.143626] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[77.145201] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[77.146080] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[77.159899] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[77.161898] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[77.166852] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[77.172323] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[77.173589] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[77.174627] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[77.181972] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[77.182153] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[77.187523] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[77.190620] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[77.191781] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[77.194477] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[77.195154] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[77.196659] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[77.198210] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[77.199823] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[77.201228] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[77.203336] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[77.204121] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[77.217111] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[77.237045] (-) TimerEvent: {}
+[77.340104] (-) TimerEvent: {}
+[77.443295] (-) TimerEvent: {}
+[77.553857] (-) TimerEvent: {}
+[77.654301] (-) TimerEvent: {}
+[77.755291] (-) TimerEvent: {}
+[77.856665] (-) TimerEvent: {}
+[77.870320] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[77.903206] (-) EventReactorShutdown: {}

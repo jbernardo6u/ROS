@@ -13,16 +13,17 @@ for 5A Assembly3 robot</p>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-<!--  <depend>roslaunch</depend>
-  <depend>robot_state_publisher</depend>
-  <depend>rviz</depend>
-  <depend>joint_state_publisher_gui</depend>
-  <depend>gazebo</depend>-->
+  <exec_depend>roslaunch</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>gazebo</exec_depend>
  
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path = "/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/"/>
   </export>
 </package>

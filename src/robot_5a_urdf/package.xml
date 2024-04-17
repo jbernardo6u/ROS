@@ -6,28 +6,24 @@
   <description>
     <p>URDF Description package for 5A Assembly3</p>
     <p>This package contains configuration data, 3D models and launch files
-for 5A Assembly3 robot, in the order to simulate into gazebo and controle using rviz software</p>
+for 5A Assembly3 robot</p>
   </description>
-  <maintainer email="josebernardofisico@gmail.com" />
+  <maintainer email="TODO@email.com" />
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-<!--  <depend>roslaunch</depend>
+  <exec_depend>roslaunch</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-
--->
-  
   <exec_depend>rviz</exec_depend>
   <exec_depend>joint_state_publisher_gui</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>gazebo_ros</exec_depend>
-  <exec_depend>xacro</exec_depend>
+  <exec_depend>gazebo</exec_depend>
  
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path = "/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/"/>
   </export>
 </package>

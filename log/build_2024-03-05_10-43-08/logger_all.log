@@ -1,0 +1,177 @@
+[5.942s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.942s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8ffd8967d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8ffd894cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8ffd894cd0>>)
+[6.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bernardo/R5A_ROS_ws'
+[6.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[6.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extensions ['ignore', 'ignore_ament_install']
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extension 'ignore'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extension 'ignore_ament_install'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extensions ['colcon_pkg']
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extension 'colcon_pkg'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extensions ['colcon_meta']
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extension 'colcon_meta'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extensions ['ros']
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_5a_urdf) by extension 'ros'
+[6.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_5a_urdf' with type 'ros.ament_cmake' and name 'robot_5a_urdf'
+[6.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[6.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[7.381s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.381s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_args' from command line to 'None'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_target' from command line to 'None'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[7.394s] Level 5:colcon.colcon_core.verb:set package 'robot_5a_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.394s] DEBUG:colcon.colcon_core.verb:Building package 'robot_5a_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf', 'merge_install': False, 'path': '/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf', 'symlink_install': False, 'test_result_base': None}
+[7.407s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.458s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control' with build type 'ament_cmake'
+[7.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bernardo/R5A_ROS_ws/src/gazebo_ros2_control'
+[8.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf' with build type 'ament_cmake'
+[9.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf'
+[9.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control -- -j3 -l3
+[9.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf -- -j3 -l3
+[9.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf -- -j3 -l3
+[10.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf
+[10.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_5a_urdf)
+[10.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_urdf
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf' for CMake module files
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf' for CMake config files
+[10.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_5a_urdf', 'cmake_prefix_path')
+[10.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.ps1'
+[10.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.dsv'
+[10.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.sh'
+[10.305s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/bin'
+[10.305s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/lib/pkgconfig/robot_5a_urdf.pc'
+[10.305s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/lib/python3.10/site-packages'
+[10.305s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/bin'
+[10.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.ps1'
+[10.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.dsv'
+[10.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.sh'
+[10.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.bash'
+[10.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.zsh'
+[10.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/colcon-core/packages/robot_5a_urdf)
+[10.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_5a_urdf)
+[10.484s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf' for CMake module files
+[10.487s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf' for CMake config files
+[10.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_5a_urdf', 'cmake_prefix_path')
+[10.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.ps1'
+[10.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.dsv'
+[10.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/hook/cmake_prefix_path.sh'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/bin'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/lib/pkgconfig/robot_5a_urdf.pc'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/lib/python3.10/site-packages'
+[10.513s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/bin'
+[10.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.ps1'
+[10.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.dsv'
+[10.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.sh'
+[10.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.bash'
+[10.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/package.zsh'
+[10.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/colcon-core/packages/robot_5a_urdf)
+[203.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/gazebo_ros2_control -- -j3 -l3
+[208.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[208.867s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control' for CMake module files
+[208.886s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control' for CMake config files
+[208.929s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/bin'
+[208.931s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[208.949s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[208.950s] Level 1:colcon.colcon_core.environment:checking '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/bin'
+[209.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[209.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[209.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[209.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[209.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[209.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bernardo/R5A_ROS_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[209.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[209.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[209.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[209.159s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[209.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[209.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[209.487s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[211.903s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[212.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bernardo/R5A_ROS_ws/install/local_setup.ps1'
+[212.101s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bernardo/R5A_ROS_ws/install/_local_setup_util_ps1.py'
+[212.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bernardo/R5A_ROS_ws/install/setup.ps1'
+[212.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bernardo/R5A_ROS_ws/install/local_setup.sh'
+[212.274s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bernardo/R5A_ROS_ws/install/_local_setup_util_sh.py'
+[212.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bernardo/R5A_ROS_ws/install/setup.sh'
+[212.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bernardo/R5A_ROS_ws/install/local_setup.bash'
+[212.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bernardo/R5A_ROS_ws/install/setup.bash'
+[212.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bernardo/R5A_ROS_ws/install/local_setup.zsh'
+[212.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bernardo/R5A_ROS_ws/install/setup.zsh'
