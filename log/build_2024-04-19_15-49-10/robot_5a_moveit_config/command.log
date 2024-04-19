@@ -1,0 +1,4 @@
+Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config -- -j3 -l3
+Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config -- -j3 -l3
+Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config
+Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config

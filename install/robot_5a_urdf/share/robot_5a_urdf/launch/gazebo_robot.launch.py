@@ -49,14 +49,14 @@ def generate_launch_description():
                 PythonLaunchDescriptionSource([gazebo_ros_package_path, '/gazebo.launch.py']),
     )
     
-    #Define the loading of joint states and arm controller
+    #Define the loading of joint states and arm controller : the two functions will execute commands to load the controllers
     load_joint_states_controller = ExecuteProcess(
-        cmd = ['ros2', 'control', 'load_controller', '--set-state', 'start', 'joint_state_broadcaster'],
+        cmd = ['ros2', 'control', 'load_controller', '--set-state', 'active', 'joint_state_broadcaster'],
         output='screen'
     )
 
     load_joint_arm_controller = ExecuteProcess(
-        cmd = ['ros2', 'control', 'load_controller', '--set-state', 'start', 'arm_controller'],
+        cmd = ['ros2', 'control', 'load_controller', '--set-state', 'active', 'arm_controller'],
         output='screen'
     )
 
