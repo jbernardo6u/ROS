@@ -320,7 +320,7 @@ void GazeboRosControlPlugin::Load(gazebo::physics::ModelPtr parent, sdf::Element
   }
 
   for (unsigned int i = 0; i < control_hardware_info.size(); i++) {
-    std::string robot_hw_sim_type_str_ = control_hardware_info[i].name;
+    std::string robot_hw_sim_type_str_ = control_hardware_info[i]. name;
     RCLCPP_DEBUG(
       impl_->model_nh_->get_logger(), "Load hardware interface %s ...",
       robot_hw_sim_type_str_.c_str());

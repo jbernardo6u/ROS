@@ -43,11 +43,6 @@ def generate_launch_description():
                                 '-entity', 'robot_5a_urdf'],
                     output='screen')
 
-
-
-
-
-
     # Run the node
     return LaunchDescription([
         node_robot_state_publisher,

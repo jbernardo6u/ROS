@@ -1,0 +1,20 @@
+[1.161s] Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config -- -j3 -l3
+[2.239s] Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config -- -j3 -l3
+[2.470s] Invoking command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config
+[2.507s] -- Install configuration: ""
+[2.516s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/package_run_dependencies/robot_5a_moveit_config
+[2.523s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/parent_prefix_path/robot_5a_moveit_config
+[2.526s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.sh
+[2.528s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/ament_prefix_path.dsv
+[2.528s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.sh
+[2.529s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/environment/path.dsv
+[2.529s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.bash
+[2.529s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.sh
+[2.530s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.zsh
+[2.532s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/local_setup.dsv
+[2.532s] -- Installing: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.dsv
+[2.540s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/ament_index/resource_index/packages/robot_5a_moveit_config
+[2.542s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig.cmake
+[2.542s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/cmake/robot_5a_moveit_configConfig-version.cmake
+[2.543s] -- Up-to-date: /home/bernardo/R5A_ROS_ws/install/robot_5a_moveit_config/share/robot_5a_moveit_config/package.xml
+[2.552s] Invoked command in '/home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bernardo/R5A_ROS_ws/build/robot_5a_moveit_config

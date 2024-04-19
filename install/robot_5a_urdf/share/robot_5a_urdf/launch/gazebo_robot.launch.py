@@ -11,17 +11,18 @@ import xacro
 
 def generate_launch_description():
 
-    gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('gazebo_ros'), 'launch'
-                ), '/gazebo.launch.py']),
-    )
-
-    package_path =os.path.join(
+    
+    
+    #Define the packages path
+    robot_5a_urdf_package_path =os.path.join(
         get_package_share_directory('robot_5a_urdf')
     )
-
-    xacro_file =os.path.join(package_path,
+    gazebo_ros_package_path = os.path.join(
+                    get_package_share_directory('gazebo_ros'), 'launch'
+                )
+    
+    #Define the xacro file to be opened, parsed, processed and overloaded
+    xacro_file =os.path.join(robot_5a_urdf_package_path,
         'description',
         'robot_5a_urdf.urdf.xacro'
     )
@@ -30,6 +31,8 @@ def generate_launch_description():
     xacro.process_doc(doc)
     params = {'robot_description':doc.toxml()}
 
+    
+    #Define the nodes
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable = 'robot_state_publisher',
@@ -37,6 +40,16 @@ def generate_launch_description():
         parameters =[params]
     )
 
+    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
+                    arguments=['-topic', '/robot_description',
+                                '-entity', 'robot_5a_urdf'],
+                    output='screen')
+            # Define the gazebo node from the ros gazebo package launch file
+    gazebo = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([gazebo_ros_package_path, '/gazebo.launch.py']),
+    )
+    
+    #Define the loading of joint states and arm controller
     load_joint_states_controller = ExecuteProcess(
         cmd = ['ros2', 'control', 'load_controller', '--set-state', 'start', 'joint_state_broadcaster'],
         output='screen'
@@ -46,13 +59,6 @@ def generate_launch_description():
         cmd = ['ros2', 'control', 'load_controller', '--set-state', 'start', 'arm_controller'],
         output='screen'
     )
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-                    arguments=['-topic', '/robot_description',
-                                '-entity', 'robot_5a_urdf'],
-                    output='screen')
-    
-
-
 
     return LaunchDescription([
         RegisterEventHandler(
