@@ -44,6 +44,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_5a_urdf" TYPE DIRECTORY FILES
+    "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/urdf"
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/description"
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/launch"
     "/home/bernardo/R5A_ROS_ws/src/robot_5a_urdf/config"

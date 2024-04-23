@@ -1,11 +1,15 @@
-/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_include.xacro
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/urdf/gazebo_plugins.xacro
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/urdf/robot_5a_urdf.csv
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/urdf/robot_5a_urdf.xacro.urdf
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/gazebo_plugins.xacro
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.csv
-/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/example_gazebo.xacro
-/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.urdf.xacro
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/description/robot_5a_urdf.xacro.urdf
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/rviz.launch.py
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/rsp_sim.launch.py
-/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/gazebo_robot.launch.py
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/launch/main_robot.launch.py
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/view_robot.rviz
+/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/robot_5a_arms_controller.yaml
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/joint_names_5A Assembly3.yaml
-/home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/config/robot_5a_controllers.yaml
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_2.STL
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/Link_3.STL
 /home/bernardo/R5A_ROS_ws/install/robot_5a_urdf/share/robot_5a_urdf/meshes/base_link.STL

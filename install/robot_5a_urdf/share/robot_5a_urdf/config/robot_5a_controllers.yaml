@@ -8,8 +8,6 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-
-
 arm_controller:
   ros__parameters:
     command_interfaces:
@@ -23,3 +21,4 @@ arm_controller:
       - joint_3
       - joint_4
       - joint_5
+      - joint1

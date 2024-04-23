@@ -12,7 +12,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_share = launch_ros.substitutions.FindPackageShare(package='robot_5a_urdf').find('robot_5a_urdf')
-    default_model_path = os.path.join(pkg_share, 'description/robot_5a_urdf')
+    default_model_path = os.path.join(pkg_share, 'urdf/robot_5a_urdf')
     default_rviz_config_path = os.path.join(pkg_share, 'rviz/urdf_config.rviz')
 
 

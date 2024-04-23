@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<robot name="robot_5a_urdf" xmlns:xacro="http://www.ros.org/wiki/xacro">
+ 
+    <link name="world"></link>
+
+    <joint name="base_joint" type="fixed">
+      <origine xyz="1.5 1.0 0" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="base_link"/> 
+    </joint>
+
+    <link name="base_link">
+      <inertial>
+        <origin xyz="-0.0548860380843249 0.13093941386242 0.123490600745143" rpy="0 0 0"/>
+        <mass value="14.597154271183"/>
+        <inertia ixx="0.695957973379333" ixy="-0.0649025967272173" ixz="-0.0112244947190923"
+                iyy="0.473270434583888" iyz="-0.0216810141749484" izz="0.714879715191763"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/base_link.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/base_link.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="Link_1">
+      <inertial>
+        <origin xyz="-0.021301 0.065037 0.0075714" rpy="0 0 0"/>
+        <mass value="14.597"/>
+        <inertia ixx="0.69565" ixy="-0.058894" ixz="0.010958" iyy="0.47327" iyz="0.034841" izz="0.71519"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_1.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.79216 0.81961 0.93333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_1.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="Joint_1" type="revolute">
+      <origin xyz="-0.035213 -0.13463 0.065903" rpy="1.5708 0 -0.85661"/>
+      <parent link="base_link"/>
+      <child link="Link_1"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+    </joint>
+
+    <link name="Link_2">
+      <inertial>
+        <origin xyz="0.0103079949986939 -0.10122359821804 0.0158561314021889" rpy="0 0 0"/>
+        <mass value="14.597154271183"/>
+        <inertia ixx="0.715780080314829" ixy="0.021388200911921" ixz="0.00320169652070024"
+                iyy="0.457122372881164" iyz="0.0219238847969466" izz="0.711205669958993"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_2.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_2.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="Joint_2" type="revolute">
+      <origin xyz="0 0.1655 0" rpy="-2.7886 0.7558 3.1416"/>
+      <parent link="Link_1"/>
+      <child link="Link_2"/>
+      <axis xyz="1 0 0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+    </joint>
+
+    <link name="Link_3">
+      <inertial>
+        <origin xyz="0.20022943071033 -0.0103079949986938 0.253115452864687" rpy="0 0 0"/>
+        <mass value="14.597154271183"/>
+        <inertia ixx="0.604661953325442" ixy="0.00982373505240051" ixz="-0.127279503360431"
+                iyy="0.715780080314829" iyz="0.0192665572555039" izz="0.563666089514714"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_3.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_3.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="Joint_3" type="revolute">
+      <origin xyz="0 0.22112 0" rpy="-3.1416 -0.95068 -1.5708"/>
+      <parent link="Link_2"/>
+      <child link="Link_3"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+    </joint>
+
+    <link name="Link_4">
+      <inertial>
+        <origin xyz="0.229768913416455 -0.369352839223879 0.106888566945361" rpy="0 0 0"/>
+        <mass value="14.597154271183"/>
+        <inertia ixx="0.59877838195797" ixy="0.114168459956055" ixz="-0.0669283055033016"
+                iyy="0.604661953325442" iyz="0.057115151206315" izz="0.680667787871573"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_4.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_4.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="Joint_4" type="revolute">
+      <origin xyz="-0.16912 0.002 0" rpy="0 -1.184 1.5708"/>
+      <parent link="Link_3"/>
+      <child link="Link_4"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+    </joint>
+
+    <link name="Link_5">
+      <inertial>
+        <origin xyz="0.3705564409974 0.106888566945361 0.30222256926485" rpy="0 0 0"/>
+        <mass value="14.597154271183"/>
+        <inertia ixx="0.520070664432361" ixy="-0.0834897515196175" ixz="-0.0798526767078822"
+                iyy="0.680667787871572" iyz="-0.027766886142599" izz="0.683369670851052"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_5.STL"/>
+        </geometry>
+        <material name="">
+          <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find robot_5a_urdf)/meshes/Link_5.STL"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="Joint_5" type="revolute">
+      <origin xyz="0 0.05 0" rpy="1.5708 0 -0.38538"/>
+      <parent link="Link_4"/>
+      <child link="Link_5"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
+    </joint>
+
+  
+
+    <!-- Set the gazebo robot controler & plugins-->
+    
+    <ros2_control name="GazeboSystem" type="system">
+
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+
+      <joint name="joint_1">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint_2">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+
+      <joint name="joint_3">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint_4">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint_5">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="joint1">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>  
+
+      <joint name="joint2">
+        <param name="mimic"> joint1 </param>
+        <param name="multipler"> 1 </param>
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+    </ros2_control>
+
+    <gazebo>
+      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <update_rate>50</update_rate>
+        <robot_param>robot_description</robot_param>
+        <robot_param_node>robot_state_publisher</robot_param_node>
+        <parameters>$(find robot_5a_urdf)/config/robot_5a_arms_controller.yaml</parameters>
+        <controller_manager_name>simulation_controller_manager</controller_manager_name>
+      </plugin>
+    </gazebo>
+
+
+    <!-- Gazebo is unable to use the same <material> tags that are already in the URDF (that RViz uses). -->
+    <!-- Instead, we need to add gazebo tags for our links that refer to Gazebo materials -->
+
+    <!-- Adding a color for each link view on gazebo everonement-->
+    <gazebo reference="base_link">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="Link_1">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="Link_2">
+        <material>Gazebo/Yelow</material>
+    </gazebo>
+
+    <gazebo reference="Link_3">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="Link_4">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <gazebo reference="Link_5">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <!-- Fictions -->
+    <gazebo reference="front_caster">
+        <mu1>0.01</mu1>
+        <mu2>0.01</mu2>
+        <material>Gazebo/White</material>
+        <gravity>true</gravity>
+    </gazebo>
+    
+
+    <!-- Gazebo requires the use of plugins to interact with other systems such as ROS. -->
+
+
+    <!-- This plugin will publish the joint_states for the selected joints 
+            (which robot_state_publisher can then use to broadcast the approprate tf). -->
+    <!--
+    <gazebo>
+        <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+            <update_rate>50</update_rate>
+            <joint_name>Joint_1</joint_name>
+            <joint_name>Joint_2</joint_name>
+            <joint_name>Joint_3</joint_name>
+            <joint_name>Joint_4</joint_name>
+            <joint_name>Joint_5</joint_name>
+        </plugin>
+    </gazebo>
+    -->
+
+    <!-- Gazebo requires the use of plugins to interact with other systems such as ROS. -->
+
+
+    <!-- This plugin will publish the joint_states for the selected joints 
+            (which robot_state_publisher can then use to broadcast the approprate tf). -->
+
+    <!--
+    <gazebo>
+        <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+            <update_rate>50</update_rate>
+            <joint_name>slider_joint</joint_name>
+            <joint_name>arm_joint</joint_name>
+        </plugin>
+    </gazebo>
+
+    -->
+
+    <!-- This plugin will read a JointTrajectory message from the /set_joint_trajectory topic 
+            and move the machine accordingly. It's a bit clunky but it works. -->
+    <!-- You'll probably want to add damping to the joints to stop them it flopping around. 
+            e.g. <dynamics damping="10.0" friction="10.0"/> -->
+    <!-- Here's an example message to publish to test it:
+            ros2 topic pub -1 /set_joint_trajectory trajectory_msgs/msg/JointTrajectory  '{header: {frame_id: world}, joint_names: [slider_joint, arm_joint], points: [  {positions: {0.8,0.6}} ]}' -->
+    <!--
+    <gazebo>
+        <plugin name="gazebo_ros_joint_pose_trajectory" filename="libgazebo_ros_joint_pose_trajectory.so">
+            <update_rate>50</update_rate>
+        </plugin>
+    </gazebo>
+    -->
+
+       <!-- 
+    <xacro:include filename="gazebo_physics.xacro" />
+    <xacro:include filename="gazebo_plugins.xacro" />
+    -->
+</robot>
