@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 500 #Hz
+    update_rate: 1000 #Hz
     use_sim_time: true
 
     arm_controller:
@@ -16,11 +16,10 @@ arm_controller:
     state_interfaces:
       - position
       - velocity
-    joints:
+    joints: 
       - Joint_1
       - Joint_2
       - Joint_3
       - Joint_4
       - Joint_5
-      - Joint1
-      - Joint2
+      

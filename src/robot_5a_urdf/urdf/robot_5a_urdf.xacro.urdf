@@ -192,83 +192,6 @@
       <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
-    
-    <ros2_control name="GazeboSystem" type="system">
-
-      <hardware>
-        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
-      </hardware>
-
-      <joint name="joint_1">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="joint_2">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-
-
-      <joint name="joint_3">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="joint_4">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="joint_5">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-
-      <joint name="joint1">
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>  
-
-      <joint name="joint2">
-        <param name="mimic"> joint1 </param>
-        <param name="multipler"> 1 </param>
-        <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value">0.0 </param>
-        </state_interface>
-        <state_interface name="velocity"/>
-      </joint>
-    </ros2_control>
-
-    <gazebo>
-      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-        <update_rate>50</update_rate>
-        <robot_param>robot_description</robot_param>
-        <robot_param_node>robot_state_publisher</robot_param_node>
-        <parameters>$(find robot_5a_urdf)/config/robot_5a_arms_controller.yaml</parameters>
-        <controller_manager_name>simulation_controller_manager</controller_manager_name>
-      </plugin>
-    </gazebo>
-
     <gazebo reference="base_link">
         <material>Gazebo/Green</material>
     </gazebo>
@@ -294,11 +217,89 @@
     </gazebo>
 
   
-    <gazebo reference="front_caster">
-        <mu1>0.01</mu1>
-        <mu2>0.01</mu2>
-        <material>Gazebo/White</material>
-        <gravity>true</gravity>
+    
+    <ros2_control name="GazeboSystem" type="system">
+
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+
+      <joint name="Joint_1">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="Joint_2">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+
+      <joint name="Joint_3">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="Joint_4">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="Joint_5">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+      <!--
+
+      
+      <joint name="f1Joint">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0 </param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+
+
+      <joint name="f2Joint">
+        <param name="mimic"> f1Joint </param>
+        <param name="multipler"> 1 </param>
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+      -->
+    </ros2_control>
+
+    <gazebo>
+      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <update_rate>100</update_rate>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>$(find robot_5a_urdf)/config/robot_5a_arms_controller.yaml</parameters>
+      <controller_manager name="controller_manager" type="gazebo_ros2_control/ControllerManager">simulation_controller_manager</controller_manager>
+      </plugin>
     </gazebo>
+
+
     
 </robot>

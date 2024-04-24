@@ -66,6 +66,12 @@ def generate_launch_description():
          ],
          output='screen',
      )
+    node_joint_state_publisher = Node(
+            name='joint_state_publisher',
+            package='joint_state_publisher',
+            executable='joint_state_publisher',
+            output='screen'
+    )
     
     #Define the loading of joint states and arm controller : the two functions will execute commands to load the controllers
     load_joint_states_controller = ExecuteProcess(
@@ -92,7 +98,8 @@ def generate_launch_description():
             )
         ),
         gazebo,
-        #rviz,
+        rviz,
+        #node_joint_state_publisher,
         node_robot_state_publisher,
-        spawn_entity,
+        spawn_entity
     ])
