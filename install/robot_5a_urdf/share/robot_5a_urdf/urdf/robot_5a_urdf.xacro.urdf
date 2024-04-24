@@ -299,7 +299,5 @@
       <controller_manager name="controller_manager" type="gazebo_ros2_control/ControllerManager">simulation_controller_manager</controller_manager>
       </plugin>
     </gazebo>
-
-
-    
+  
 </robot>

@@ -64,14 +64,24 @@ def generate_launch_description():
              '-d',
              os.path.join(robot_5a_urdf_package_path , 'config/view_robot.rviz'),
          ],
-         output='screen',
+         output='screen'
      )
+    
     node_joint_state_publisher = Node(
             name='joint_state_publisher',
             package='joint_state_publisher',
             executable='joint_state_publisher',
             output='screen'
     )
+
+    # Configure the joint state publisher GUI node
+    node_joint_state_publisher_gui = Node(
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
+        output='screen'
+    )
+
     
     #Define the loading of joint states and arm controller : the two functions will execute commands to load the controllers
     load_joint_states_controller = ExecuteProcess(
@@ -98,8 +108,9 @@ def generate_launch_description():
             )
         ),
         gazebo,
-        rviz,
-        #node_joint_state_publisher,
         node_robot_state_publisher,
+        rviz,
+        node_joint_state_publisher,
+        node_joint_state_publisher_gui,
         spawn_entity
     ])
