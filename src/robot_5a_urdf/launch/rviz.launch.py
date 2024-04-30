@@ -40,7 +40,7 @@ def generate_launch_description():
     )
 
     # Configure the RViz node
-    rviz_config_file = os.path.join(get_package_share_directory(robot_pkg_name), 'view_robot.rviz')
+    rviz_config_file = os.path.join(get_package_share_directory(robot_pkg_name), 'config/view_robot.rviz')
     node_rviz = Node(
         package='rviz2',
         executable='rviz2',
